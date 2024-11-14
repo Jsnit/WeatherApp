@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Default background */
+}
+
+#weather-app {
+    text-align: center;
+}
+
+#weather-display {
+    display: none; /* Initially hidden, shows after fetching data */
+}
+
+#weather-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.weather-sunny {
+    background-color: #ffe082; /* Sunny theme */
+}
+
+.weather-cloudy {
+    background-color: #cfd8dc; /* Cloudy theme */
+}
+
+.weather-rainy {
+    background-color: #90caf9; /* Rainy theme */
+}
+
+/* Add more styles as needed */
